@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabTxts">
+        <item>Recherche</item>
+        <item>Accueil</item>
+        <item>Applications</item>
+        <item>Á la demande</item>
+    </string-array>
+
+    <string name="app_name">UI5</string>
+    <string name="dialog_yes">OUI</string>
+    <string name="str_recommend_movie_view_all">Voir tout</string>
+    <string name="dialog_delete_system_msg">L\'application système ne peut pas être supprimée</string>
+    <string name="search_title">Recherche</string>
+    <string name="demand_movie_title">Films recommandés</string>
+    <string name="tips_move">Vidéos recommandées</string>
+    <string name="app_my_apps_move_tip">Appuyez sur Menu pour déplacer ou supprimer cette application</string>
+    <string name="search_tips">Veuillez entrer au moins 3 caractères</string>
+    <string name="app_my_apps">Aucun résultat trouvé</string>
+    <string name="app_store_tip">Explorez l\'App Store</string>
+    <string name="dialog_delete_msg">Voulez-vous vraiment supprimer</string>
+    <string name="search_back">Retour</string>
+    <string name="source_air">AIR</string>
+    <string name="dialog_no">NON</string>
+    <string name="demand_detail_title_video">Catégorie de vidéo</string>
+    <string name="demand_kinds_title">Catégories de vidéos</string>
+    <string name="demand_video_title">Vidéos recommandées</string>
+    <string name="apps_open_store">Ouvrez l\'App Store</string>
+    <string name="demand_detail_title_movie">Tous les films</string>
+    <string name="str_home_apps_view_all">Voir toutes mes applications</string>
+    <string name="tips_no_result">Aucun résultat trouvé</string>
+</resources>

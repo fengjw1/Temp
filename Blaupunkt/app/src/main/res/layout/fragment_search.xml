@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ktc.ecuador.view.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="166.6dp" />
+
+    <TextView
+        android:id="@+id/search_tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="43dp"
+        android:text="@string/search_tips"
+        android:textColor="@color/colorSearchHint"
+        android:textSize="23.4sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_view" />
+
+
+    <com.ktc.ecuador.view.indicators.AVLoadingIndicatorView
+        android:id="@+id/search_indicator"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/searchView_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="81dp"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_tv_tips">
+
+        <com.ktc.ecuador.view.SearchRecyclerView
+            android:id="@+id/searchView_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="270dp"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <View
+            android:id="@+id/searchView_right_line"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/searchView_right_content"
+            android:layout_alignBottom="@id/searchView_right_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@id/searchView_recycler"
+            android:background="@color/colorSearchLine"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/searchView_right_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/searchView_right_line"
+            android:visibility="gone">
+
+
+            <ImageView
+                android:id="@+id/searchView_right_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/searchView_right_first"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@id/searchView_right_image"
+                android:textColor="@color/colorWhite"
+                android:textSize="24.6sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/searchView_right_name"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_below="@id/searchView_right_first"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/searchView_right_image"
+                android:textColor="@color/colorWhite"
+                android:textSize="24.6sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/searchView_right_description"
+                android:layout_width="286.6dp"
+                android:layout_height="49.4dp"
+                android:layout_below="@id/searchView_right_name"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="54dp"
+                android:layout_toEndOf="@id/searchView_right_image"
+                android:maxLines="2"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/searchView_right_video_description"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/searchView_right_image"
+                android:layout_marginTop="11.4dp"
+                android:maxLines="3"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

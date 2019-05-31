@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">UI5</string>
+
+
+    <string-array name="tabTag">
+        <item>Search</item>
+        <item>Home</item>
+        <item>Apps</item>
+        <item>On Demand</item>
+    </string-array>
+
+    <string-array name="tabTxts">
+        <item>Search</item>
+        <item>Home</item>
+        <item>Apps</item>
+        <item>On Demand</item>
+    </string-array>
+
+    <string name="apps_open_store">Open the App Store</string>
+    <string name="app_store_tip">Explore the App Store</string>
+    <string name="app_my_apps">My Apps</string>
+    <string name="demand_movie_title">Recommended Movies</string>
+    <string name="demand_video_title">Recommended Videos</string>
+    <string name="demand_kinds_title">Video Categories</string>
+    <string name="str_recommend_movie_view_all">View All</string>
+    <string name="str_home_apps_view_all">View all My Apps</string>
+
+    <string name="source_air">AIR</string>
+    <string name="source_cable" translatable="false">CABLE</string>
+
+    <string name="source_hdmi1" translatable="false">HDMI1</string>
+    <string name="source_hdmi2" translatable="false">HDMI2</string>
+    <string name="source_hdmi3" translatable="false">HDMI3</string>
+    <string name="source_usb" translatable="false">USB</string>
+    <string name="source_av" translatable="false">AV</string>
+    <string name="source_vga" translatable="false">VGA</string>
+    <string name="source_Ypbpr" translatable="false">YPBPR</string>
+
+
+    <string name="search_tips">Please enter at least 3 characters</string>
+    <string name="search_title">Search</string>
+    <string name="search_back">BACK</string>
+    <string name="key_123" translatable="false">123</string>
+    <string name="demand_detail_title_movie">All Movies</string>
+    <string name="demand_detail_title_video">Video Category</string>
+    <string name="app_my_apps_move_tip">Press “Menu” to move or delete this app</string>
+    <string name="tips_move">Press “LEFT” or “RIGHT” to move, “OK” to confirm</string>
+    <string name="tips_no_result">No results found</string>
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_delete_msg">Do you really want to delete </string>
+    <string name="dialog_delete_system_msg">System app can not be deleted</string>
+    <string name="dialog_ok" translatable="false">OK</string>
+</resources>

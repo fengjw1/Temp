@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/bg_title_bar">
+
+    <ImageView
+        android:id="@+id/iv_title_bar_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="52dp"
+        android:background="@drawable/bg_item_tab"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scaleType="center"
+        android:src="@drawable/selector_setting_icon" />
+
+    <com.ktc.ecuador.view.SFragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@+id/iv_title_bar_setting">
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.ktc.ecuador.view.SFragmentTabHost>
+
+    <TextView
+        android:id="@+id/tv_head_bar_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="52dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+    <TextView
+        android:id="@+id/tv_head_bar_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="52dp"
+        android:layout_below="@+id/tv_head_bar_time"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:layout_width="166dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_toStartOf="@id/tv_head_bar_time"
+        android:src="@drawable/blaupunkt_logo" />
+</RelativeLayout>

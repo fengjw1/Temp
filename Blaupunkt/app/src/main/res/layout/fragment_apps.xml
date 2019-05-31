@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ktc.ecuador.view.CenterNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="130dp">
+
+        <TextView
+            android:id="@+id/apps_tv_store_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:text="@string/app_store_tip"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/apps_tv_store_appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="0.6"
+            android:text="@string/apps_open_store"
+            android:textColor="@android:color/white"
+            android:textSize="23.4sp" />
+
+        <com.ktc.ecuador.view.PredictRecyclerView
+            android:id="@+id/apps_rv_store_apps"
+            android:layout_width="match_parent"
+            android:layout_height="192dp"
+            android:descendantFocusability="afterDescendants"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/apps_tv_my_app_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.6"
+                android:text="@string/app_my_apps"
+                android:textColor="@android:color/white"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/apps_tv_my_app_move_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:alpha="0.4"
+                android:text="@string/app_my_apps_move_tip"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <com.ktc.ecuador.view.AppPredictRecyclerView
+            android:id="@+id/apps_rv_local_apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+    </LinearLayout>
+</com.ktc.ecuador.view.CenterNestedScrollView>

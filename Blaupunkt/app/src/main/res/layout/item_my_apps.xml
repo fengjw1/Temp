@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="178dp"
+        android:duplicateParentState="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/item_view_selector"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/item_block_indicator"
+            android:duplicateParentState="true"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="254dp"
+            android:layout_height="144dp">
+
+            <ImageView
+                android:id="@+id/item_iv_app_banner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/item_iv_app_icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:id="@+id/item_ll_fun"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#dd000000"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/item_iv_fun_move"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_move_selector" />
+
+                <ImageView
+                    android:id="@+id/item_iv_fun_delete"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/ic_delete_selector" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/item_iv_app_name_bg"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#ffffff">
+        <TextView
+            android:id="@+id/item_iv_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

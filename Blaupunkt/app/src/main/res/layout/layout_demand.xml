@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ktc.ecuador.view.CenterNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="130dp">
+
+        <TextView
+            android:id="@+id/demand_tv_movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:text="@string/demand_movie_title"
+            android:textColor="@android:color/white"
+            android:textSize="33sp" />
+
+        <TextView
+            android:id="@+id/demand_tv_movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/demand_tv_movie_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#dadada"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <com.ktc.ecuador.view.PredictRecyclerView
+            android:id="@+id/demand_rv_movie"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:id="@+id/demand_tv_video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33sp"
+            android:alpha="0.6"
+            android:text="@string/demand_video_title"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/demand_tv_video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/demand_tv_video_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#dadada"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <com.ktc.ecuador.view.PredictRecyclerView
+            android:id="@+id/demand_rv_video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:id="@+id/demand_tv_kinds_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:alpha="0.6"
+            android:text="@string/demand_kinds_title"
+            android:textColor="@android:color/white"
+            android:textSize="33sp" />
+
+        <com.ktc.ecuador.view.PredictRecyclerView
+            android:id="@+id/demand_rv_kinds"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+    </LinearLayout>
+</com.ktc.ecuador.view.CenterNestedScrollView>

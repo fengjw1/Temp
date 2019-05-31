@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabTxts">
+        <item>Buscar</item>
+        <item>Casa</item>
+        <item>Aplicaciones</item>
+        <item>On Demand</item>
+    </string-array>
+    <string name="app_name">UI5</string>
+    <string name="dialog_yes">SÍ</string>
+    <string name="str_recommend_movie_view_all">Ver todo</string>
+    <string name="dialog_delete_system_msg">La aplicación del sistema no puede ser eliminada</string>
+    <string name="search_title">Buscar</string>
+    <string name="demand_movie_title">Película Recomendada</string>
+    <string name="tips_move">Presione “IZQUIERDA” o “DERECHA” para moverse, “OK” para confirmar</string>
+    <string name="app_my_apps_move_tip">Presiona Menú para mover o eliminar esta aplicación</string>
+    <string name="search_tips">Por favor, introduzca al menos 3 caracteres</string>
+    <string name="tips_no_result">Ningún resultado encontrado</string>
+    <string name="app_my_apps">Mis apps</string>
+    <string name="app_store_tip">Explora la App Store</string>
+    <string name="dialog_delete_msg">¿Realmente quieres borrar?</string>
+    <string name="search_back">Atrás</string>
+    <string name="source_air">AIRE</string>
+    <string name="dialog_no">NO</string>
+    <string name="demand_detail_title_video">Categoría de video</string>
+    <string name="demand_kinds_title">Categorías de Video</string>
+    <string name="demand_video_title">Videos Recomendados</string>
+    <string name="apps_open_store">Abre la App Store</string>
+    <string name="demand_detail_title_movie">Todas las peliculas</string>
+    <string name="str_home_apps_view_all">Ver todas mis aplicaciones</string>
+</resources>

@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">BallPulseIndicator</item>
+    </style>
+
+    <style name="SearchButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:textColor">@drawable/search_btn_selector</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@drawable/selector_search_tab_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <style name="SearchImageButton">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:background">@drawable/selector_search_tab_bg</item>
+    </style>
+
+    <style name="deleteDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowAnimationStyle">@style/fadeAnimStyle</item>
+    </style>
+
+    <style name="fadeAnimStyle">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="deleteDialogButtonStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/dialog_button_background_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/dialog_button_text_selector</item>
+    </style>
+</resources>

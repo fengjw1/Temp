@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="168dp"
+        android:duplicateParentState="true"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/item_view_selector"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@drawable/item_block_indicator"
+            android:duplicateParentState="true" />
+
+        <TextView
+            android:id="@+id/recommend_tv_kind_label"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorMovieViewAll"
+            android:gravity="center"
+            android:text="@string/str_recommend_movie_view_all"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingTop="130dp">
+
+    <TextView
+        android:id="@+id/demand_tv_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="33sp" />
+
+    <TextView
+        android:id="@+id/demand_tv_detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/demand_tv_detail_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:textColor="#dadada"
+        android:textSize="18sp" />
+
+    <com.ktc.ecuador.view.PredictRecyclerView
+        android:id="@+id/demand_rv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.ktc.ecuador.view.indicators.AVLoadingIndicatorView
+        android:id="@+id/demand_load_detail"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+</LinearLayout>
