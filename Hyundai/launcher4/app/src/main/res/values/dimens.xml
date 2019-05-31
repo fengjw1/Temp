@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="slide_width">267dp</dimen>
+    <dimen name="common_header_height">103dp</dimen>
+    <dimen name="home_start_margin">120dp</dimen>
+    <dimen name="text_size_10">18sp</dimen>
+    <dimen name="text_size_13">23sp</dimen>
+    <dimen name="commonCorner">0dp</dimen>
+</resources>

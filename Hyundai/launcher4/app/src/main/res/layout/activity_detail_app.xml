@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/category_header"
+        layout="@layout/common_header" />
+
+
+    <com.mp3.launcher4.customs.views.FocusCheckRecyclerView
+        android:id="@+id/detail_app_rv"
+        style="@style/AppRecyclerStyle" />
+
+
+</LinearLayout>

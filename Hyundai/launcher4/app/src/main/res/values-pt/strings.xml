@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">launcher4</string>
+    <string name="slide_search">Pesquisar</string>
+    <string name="slide_source">Entrada</string>
+    <string name="slide_my_app">Meus apps</string>
+    <string name="slide_on_demand">On Demand</string>
+    <string name="slide_settings">Definições</string>
+    <string name="search_back">Voltar</string>
+    <string name="search_tips">Por favor digite pelo menos 3 caracteres</string>
+    <string name="search_title">Pesquisr</string>
+    <string name="slide_trending">Tendendo</string>
+    <string name="slide_app_store">Loja de aplicativos</string>
+    <string name="menu_installed">Apps instalados</string>
+    <string name="menu_recent_used">Apps usados recentemente</string>
+    <string name="menu_explore">Explore a App Store</string>
+    <string name="menu_new_app">Novos aplicativos</string>
+    <string name="menu_recommended_movie">Filme recomendado</string>
+    <string name="menu_demand_categories">Categorias sob demanda</string>
+    <string name="item_view_all">Ver tudo</string>
+    <string name="search_title_apps">Aplicativos correspondentes</string>
+    <string name="search_title_demand">Correspondência sob demanda</string>
+    <string name="epg_now">Agora</string>
+    <string name="dialog_yes">SIM</string>
+    <string name="dialog_no">NÃO</string>
+    <string name="dialog_delete_msg">Você realmente quer excluir</string>
+    <string name="dialog_delete_system_msg">Aplicativo do sistema não pode ser excluído</string>
+    <string name="tips_menu">Pressione \"Menu\" para mover ou excluir este aplicativo</string>
+    <string name="tips_no_result">Nenhum resultado para</string>
+    <string name="source_air">AIR</string>
+    <string name="tips_move">Pressione “LEFT” ou “RIGHT” para mover, “OK” para confirmar</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/BaseRootStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/slider_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:adjustViewBounds="true"
+        android:duplicateParentState="true"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/slider_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:maxWidth="150dp"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_toEndOf="@id/slider_icon"
+        android:duplicateParentState="true"
+        android:textColor="@drawable/slider_title_selector"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">launcher4</string>
+    <string name="slide_search">Buscar</string>
+    <string name="slide_source">Entradas</string>
+    <string name="slide_my_app">Mis apps</string>
+    <string name="slide_on_demand">On Demand</string>
+    <string name="slide_settings">Ajustes</string>
+    <string name="search_back">Atrás</string>
+    <string name="search_tips">Por favor, introduzca al menos 3 caracteres</string>
+    <string name="search_title">Buscar</string>
+    <string name="source_air">AIRE</string>
+    <string name="slide_trending">Tendencias</string>
+    <string name="slide_app_store">Tienda de aplicaciones</string>
+    <string name="menu_installed">Aplicaciones instaladas</string>
+    <string name="menu_recent_used">Aplicaciones recientemente utilizadas</string>
+    <string name="menu_explore">Explora la App Store</string>
+    <string name="menu_new_app">Nuevas aplicaciones</string>
+    <string name="menu_recommended_movie">Película Recomendada</string>
+    <string name="menu_demand_categories">Categorías On Demand</string>
+    <string name="item_view_all">Ver todo</string>
+    <string name="search_title_apps">Aplicaciones coincidentes</string>
+    <string name="search_title_demand">Coincidencia a pedido</string>
+    <string name="epg_now">Ahora</string>
+    <string name="dialog_yes">SÍ</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_delete_msg">¿Realmente quieres borrar?</string>
+    <string name="dialog_delete_system_msg">La aplicación del sistema no puede ser eliminada</string>
+    <string name="tips_menu">Presiona \"Menú\" para mover o eliminar esta aplicación</string>
+    <string name="tips_no_result">No hay resultados para</string>
+    <string name="tips_move">Presione “IZQUIERDA” o “DERECHA” para moverse, “OK” para confirmar</string>
+</resources>

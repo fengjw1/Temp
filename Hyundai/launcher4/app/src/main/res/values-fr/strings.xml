@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">launcher4</string>
+    <string name="slide_search">Recherche</string>
+    <string name="slide_source">Sources</string>
+    <string name="slide_my_app">Mes apps</string>
+    <string name="slide_on_demand">Á la demande</string>
+    <string name="slide_settings">Réglages</string>
+    <string name="search_back">Retour</string>
+    <string name="search_tips">Veuillez entrer au moins 3 caractères</string>
+    <string name="search_title">Recherche</string>
+    <string name="slide_trending">Tendances</string>
+    <string name="slide_app_store">Magasin d\'applications</string>
+    <string name="menu_installed">Applications installées</string>
+    <string name="menu_recent_used">Applications récemment utilisées</string>
+    <string name="menu_explore">Explorez l\'App Store</string>
+    <string name="menu_new_app">Nouvelles applications</string>
+    <string name="menu_recommended_movie">Film recommandé</string>
+    <string name="menu_demand_categories">Catégories à la demande</string>
+    <string name="item_view_all">Voir tout</string>
+    <string name="search_title_apps">Correspondance des applications</string>
+    <string name="search_title_demand">Correspondance à la demande</string>
+    <string name="epg_now">À présent</string>
+    <string name="dialog_yes">OUI</string>
+    <string name="dialog_no">NON</string>
+    <string name="dialog_delete_msg">Voulez-vous vraiment supprimer</string>
+    <string name="dialog_delete_system_msg">L\'application système ne peut pas être supprimée</string>
+    <string name="tips_menu">Appuyez sur \"Menu\" pour déplacer ou supprimer cette application</string>
+    <string name="tips_no_result">Aucun résultat pour</string>
+    <string name="source_air">AIR</string>
+    <string name="tips_move">Appuyez sur \"GAUCHE\" ou \"DROITE\" pour vous déplacer, \"OK\" pour confirmer</string>
+</resources>

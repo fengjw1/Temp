@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/searchView_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/searchView_text"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16.6dp"
+            android:layout_toEndOf="@+id/searchView_img"
+            android:gravity="center_vertical"
+            android:text="@string/search_title"
+            android:textColor="@color/colorWhite"
+            android:textSize="26.6sp" />
+
+
+            <EditText
+                android:id="@+id/searchView_et"
+                android:layout_width="392dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="36dp"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:inputType="textNoSuggestions"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/searchView_text"
+                android:background="@drawable/search_bg"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal"
+                android:textSize="25sp" />
+
+        <include
+            android:id="@+id/searchView_header"
+            layout="@layout/common_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_header_height"
+            android:layout_marginStart="@dimen/home_start_margin" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:clickable="false"
+        android:clipChildren="false"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/searchView_ll_method"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="42dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="end"
+            android:minWidth="885dp"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/searchView_btn_type"
+            style="@style/SearchButton"
+            android:layout_marginStart="40dp"
+            android:text="@string/key_123"/>
+
+        <ImageButton
+            android:id="@+id/ic_btn_space"
+            style="@style/SearchImageButton"
+            android:src="@drawable/icon_space_selector"
+            tools:ignore="ContentDescription" />
+
+
+        <ImageButton
+            android:id="@+id/ic_btn_del"
+            style="@style/SearchImageButton"
+            android:layout_height="34dp"
+            android:src="@drawable/icon_del_selector"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/searchView_btn_back"
+            style="@style/SearchButton"
+            android:layout_marginStart="16dp"
+            android:text="@string/search_back" />
+    </LinearLayout>
+</LinearLayout>

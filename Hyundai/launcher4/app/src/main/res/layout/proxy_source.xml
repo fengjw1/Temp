@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SurfaceView
+            android:id="@+id/source_tv_window"
+            android:layout_width="533dp"
+            android:layout_height="300dp"
+            android:background="@drawable/border_tv_selector"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:outlineProvider="bounds" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="47dp"
+            android:layout_weight="1"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:id="@+id/source_name"
+                    style="@style/sourceTextStyle"
+                    android:textColor="@color/colorSourceTvName"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/source_expand"
+                    style="@style/sourceTextStyle"
+                    android:gravity="center_vertical"
+                    android:textColor="@android:color/white"
+                    android:textSize="26sp" />
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/source_epg_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+
+        <com.mp3.launcher4.customs.views.SpecialLimitRecyclerView
+            android:id="@+id/source_list_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:nextFocusUp="@id/source_tv_window" />
+
+    </RelativeLayout>
+
+</LinearLayout>

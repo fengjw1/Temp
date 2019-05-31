@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAppBackground">#323232</color>
+    <color name="colorIconBackground">#55000000</color>
+    <color name="colorSearchText">#4A4A4A</color>
+    <color name="colorSearchHint">#BDBDBD</color>
+    <color name="colorSlideBackground">#13263D</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorSourceTvName">#C0C0C0</color>
+
+</resources>
